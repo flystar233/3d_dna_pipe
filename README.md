@@ -22,4 +22,5 @@ bash run-asm-pipeline-post-review.sh --sort-output  -r test.review.assembly cont
 ```
 ## 脚本存放
 `/ldfssz1/MS_OP/USER/xutengfei1/script_py/hic_scr`
+
 `/zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/3d-dna_bin`
