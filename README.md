@@ -24,3 +24,10 @@ bash run-asm-pipeline-post-review.sh --sort-output  -r test.review.assembly cont
 `/ldfssz1/MS_OP/USER/xutengfei1/script_py/hic_scr`
 
 `/zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/3d-dna_bin`
+
+具体参考 `/ldfssz1/MS_OP/USER/xutengfei1/tangyu/new_HIC`
+
+### 新流程测试结果
+0.hic
+
+![0hic.jpg](https://i.loli.net/2021/01/11/kLreOJpylTZBdsE.jpg)
