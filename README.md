@@ -20,3 +20,6 @@ sh getread.sh rawdata_allValidPairs CL10_1.fq.gz CL10_2.fq.gz #建议qsub提交�
 python juicer_3d_dna_pipe.py --fq *.gz --ref refer.fa --res_name MboI --n_cpus 8
 bash run-asm-pipeline-post-review.sh --sort-output  -r test.review.assembly contig.fa  ./merged_nodups.txt
 ```
+## 脚本存放
+`/ldfssz1/MS_OP/USER/xutengfei1/script_py/hic_scr`
+`/zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/3d-dna_bin`
