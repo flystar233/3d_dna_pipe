@@ -11,7 +11,7 @@ else
   cut -f 1 -d "/" $file > fastq.name
 fi
 if [ ! -n "$sign_fq" ]; then  
-  /zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/miniconda3/bin/python /ldfssz1/MS_OP/USER/xutengfei1/tangyu/new_HIC/getread/old_data/getread.py --input fastq.name --r1 $fq1 --r2 $fq2 --header old
+  /zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/miniconda3/bin/python /ldfssz1/MS_OP/USER/xutengfei1/script_py/hic_scr/getread.py --input fastq.name --r1 $fq1 --r2 $fq2 --header old
 else  
-  /zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/miniconda3/bin/python /ldfssz1/MS_OP/USER/xutengfei1/tangyu/new_HIC/getread/old_data/getread.py --input fastq.name --r1 $fq1 --r2 $fq2 --header new
+  /zfssz3/NASCT_BACKUP/MS_PMO2017/xutengfei1/software/miniconda3/bin/python /ldfssz1/MS_OP/USER/xutengfei1/script_py/hic_scr/getread.py --input fastq.name --r1 $fq1 --r2 $fq2 --header new
 fi
